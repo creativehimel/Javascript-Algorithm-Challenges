@@ -9,6 +9,9 @@
 function getSum(params1, params2){
     return params1 + params2
 }
+
+console.log(getSum(5,24))
+
 function getTotalSum(... params1){
     let total = 0
     params1.forEach(perElem=>{
